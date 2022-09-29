@@ -1,0 +1,9 @@
+
+config:
+  backup_location: /Users/carlos/backups/
+
+data:
+- location: carlos@host:/home/carlos/vc/code/
+  frequency: [hourly, daily]
+- location: anotherhost:/home/carlos/vc/models/
+  frequency: [hourly, daily]
